@@ -5,8 +5,8 @@
   "author": "Luke McCann",
   "license": "ISC",
   "scripts": {
-    "start": "pm2 start app",
-    "start-dev": "nodemon app --trace-sync-io",
+    "start": "pm2 start index",
+    "start-dev": "nodemon index --trace-sync-io",
     "test": "jest"
   },
   "dependencies": {
